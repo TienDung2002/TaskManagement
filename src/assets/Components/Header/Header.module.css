@@ -1,0 +1,155 @@
+.main_heading {
+  width: 100%;
+  height: 200px;
+  background-color: #313131;
+}
+
+.heading_header {
+  max-width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+  font-size: 40px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button {
+  cursor: pointer;
+  font-size: 18px;
+  padding: 15px;
+  border-radius: 15px;
+  background-color: #e69858;
+}
+
+.button:hover {
+  background-color: #e7893e;
+}
+
+/* Modal */
+.modal {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 3;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.modal_content_wrap {
+  background-color: #fff;
+  width: 600px;
+  height: auto;
+  border-radius: 5px;
+  border-top: 7px solid #e69858;
+  z-index: 4;
+}
+.modal_content {
+  padding: 10px 20px 20px 20px;
+  margin-top: 10px;
+}
+.addN_Close {
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(255, 222, 181, 0.2);
+  padding: 10px 20px;
+}
+.addN_Close p {
+  color: #e69858;
+  font-weight: 500;
+}
+.addN_Close button {
+  background-color: transparent;
+  cursor: pointer;
+}
+.addN_Close button i {
+  padding: 5px;
+  color: #898888;
+}
+.modal_item_wrap {
+  margin-top: 10px;
+  height: auto;
+  width: 100%;
+}
+.modal_item_wrap input {
+  padding: 8px;
+  margin-top: 5px;
+  width: 100%;
+  height: auto;
+  font-size: 15px;
+}
+.title_modal_input {
+  color: #686868;
+  font-weight: 500;
+  font-size: 16px;
+}
+.des_fix_height textarea{
+  width: 100%;
+  height: 112px;
+  padding: 8px;
+  margin-top: 5px;
+  font-size: 15px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  resize: none;
+}
+
+.bar_row {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bar_row_item input,
+.bar_row_item select {
+  min-width: 160px;
+  color: #686868;
+}
+.bar_row_item select {
+  padding: 10px;
+  margin-top: 5px;
+  font-size: 14px;
+}
+.bar_row_item option {
+  font-size: 14px;
+  padding: 5px;
+}
+.btn_crT {
+  width: 100%;
+  height: auto;
+  margin: 35px 0 10px 0;
+  text-align: center;
+}
+.btn_crT button {
+  font-size: 14px;
+  padding: 12px 30px;
+  margin: 0 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.3);
+}
+.btn_crT_R {
+  color: #e69858;
+}
+.btn_crT_R:hover {
+  background-color: rgba(255, 164, 89, 0.3);
+}
+.btn_crT_S {
+  background-color: #ffa459;
+  color: #fff;
+}
+.btn_crT_S:hover {
+  background-color: #e69858;
+}
