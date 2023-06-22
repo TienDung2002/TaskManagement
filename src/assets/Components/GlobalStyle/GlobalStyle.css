@@ -5,6 +5,9 @@
   --main-color-btn: #e69858;
   --main-hover-btn: #e7893e;
 }
+.App {
+  overflow: hidden;
+}
 
 * {
   box-sizing: border-box;
@@ -69,4 +72,13 @@ input[type="search"]::-webkit-search-cancel-button {
   background-color: #f79444;
   color: #1e1d1d;
   opacity: 1;
+}
+
+
+/* Mobile: width < 740px */
+@media screen and (max-width: 739px) {
+  .scroll_to_top_button {
+    bottom: 6vh;
+    right: 9vw;
+  }
 }

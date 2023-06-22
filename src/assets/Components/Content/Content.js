@@ -264,16 +264,18 @@ function Content() {
                                                     {task.status}
                                                 </div>
                                             </div>
-                                            <div className={`${style.wrap_dayStart} ${style.fix_w_col_Name}`}>
-                                                <p className={style.p_title_col}>Bắt đầu</p>
-                                                <div className={style.lh_fix}>
-                                                    {formatDate(task.dayStart)}
+                                            <div className={style.wrap_item_res}>
+                                                <div className={`${style.wrap_dayStart} ${style.fix_w_col_Name}`}>
+                                                    <p className={style.p_title_col}>Bắt đầu</p>
+                                                    <div className={style.lh_fix}>
+                                                        {formatDate(task.dayStart)}
+                                                    </div>
                                                 </div>
-                                            </div>
-                                            <div className={`${style.wrap_dayEnd} ${style.fix_w_col_Name}`}>
-                                                <p className={style.p_title_col}>Đến hạn</p>
-                                                <div className={style.lh_fix}>
-                                                    {formatDate(task.dayEnd)}
+                                                <div className={`${style.wrap_dayEnd} ${style.fix_w_col_Name}`}>
+                                                    <p className={style.p_title_col}>Đến hạn</p>
+                                                    <div className={style.lh_fix}>
+                                                        {formatDate(task.dayEnd)}
+                                                    </div>
                                                 </div>
                                             </div>
                                             <div className={style.btn_li_item}>

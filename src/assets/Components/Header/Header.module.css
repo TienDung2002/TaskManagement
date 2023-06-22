@@ -96,13 +96,15 @@
   font-weight: 500;
   font-size: 16px;
 }
-.des_fix_height textarea{
+.des_fix_height textarea {
   width: 100%;
   height: 112px;
   padding: 8px;
   margin-top: 5px;
   font-size: 15px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
   resize: none;
 }
 
@@ -152,4 +154,47 @@
 }
 .btn_crT_S:hover {
   background-color: #e69858;
+}
+
+/* PC */
+@media screen and (min-width: 1024px){
+  .heading_header {
+    padding: 0 30px;
+  }
+}
+
+/*Mobile & Tablet : <1024px*/
+@media screen and (max-width: 63.9375em) {
+
+}
+
+/* Mobile: width < 740px */
+@media screen and (max-width: 46.1875em) {
+  .heading_header {
+    padding: 0 15px;
+  }
+  .heading_header {
+    display: block;
+    text-align: center;
+  }
+  .heading_header h3 {
+    font-size: 28px;
+    padding: 20px 0 15px 0;
+  }
+  .wrap_search_box {
+  }
+  .wrap_description {
+  }
+  .wrap_status,
+  .wrap_dayStart,
+  .wrap_dayEnd {
+    margin-left: 0;
+  }
+}
+
+/* Tablet: width >= 740px and width < 1024px */
+@media screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+  .heading_header {
+    padding: 0 18px;
+  }
 }
